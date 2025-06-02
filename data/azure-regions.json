@@ -1,0 +1,172 @@
+{
+  "regions": [
+    {
+      "id": "eastus",
+      "name": "East US",
+      "displayName": "East US (Virginia)",
+      "coordinates": {
+        "latitude": 37.3719,
+        "longitude": -78.8964
+      },
+      "timezone": "America/New_York",
+      "electricityPrice": 0.12,
+      "currency": "USD",
+      "country": "US",
+      "continent": "North America"
+    },
+    {
+      "id": "westus",
+      "name": "West US",
+      "displayName": "West US (California)",
+      "coordinates": {
+        "latitude": 37.7749,
+        "longitude": -122.4194
+      },
+      "timezone": "America/Los_Angeles",
+      "electricityPrice": 0.18,
+      "currency": "USD",
+      "country": "US",
+      "continent": "North America"
+    },
+    {
+      "id": "northeurope",
+      "name": "North Europe",
+      "displayName": "North Europe (Ireland)",
+      "coordinates": {
+        "latitude": 53.3498,
+        "longitude": -6.2603
+      },
+      "timezone": "Europe/Dublin",
+      "electricityPrice": 0.22,
+      "currency": "EUR",
+      "country": "IE",
+      "continent": "Europe"
+    },
+    {
+      "id": "westeurope",
+      "name": "West Europe",
+      "displayName": "West Europe (Netherlands)",
+      "coordinates": {
+        "latitude": 52.3702,
+        "longitude": 4.8952
+      },
+      "timezone": "Europe/Amsterdam",
+      "electricityPrice": 0.25,
+      "currency": "EUR",
+      "country": "NL",
+      "continent": "Europe"
+    },
+    {
+      "id": "southeastasia",
+      "name": "Southeast Asia",
+      "displayName": "Southeast Asia (Singapore)",
+      "coordinates": {
+        "latitude": 1.3521,
+        "longitude": 103.8198
+      },
+      "timezone": "Asia/Singapore",
+      "electricityPrice": 0.15,
+      "currency": "USD",
+      "country": "SG",
+      "continent": "Asia"
+    },
+    {
+      "id": "eastasia",
+      "name": "East Asia",
+      "displayName": "East Asia (Hong Kong)",
+      "coordinates": {
+        "latitude": 22.3193,
+        "longitude": 114.1694
+      },
+      "timezone": "Asia/Hong_Kong",
+      "electricityPrice": 0.14,
+      "currency": "USD",
+      "country": "HK",
+      "continent": "Asia"
+    },
+    {
+      "id": "australiaeast",
+      "name": "Australia East",
+      "displayName": "Australia East (New South Wales)",
+      "coordinates": {
+        "latitude": -33.8688,
+        "longitude": 151.2093
+      },
+      "timezone": "Australia/Sydney",
+      "electricityPrice": 0.28,
+      "currency": "AUD",
+      "country": "AU",
+      "continent": "Australia"
+    },
+    {
+      "id": "japaneast",
+      "name": "Japan East",
+      "displayName": "Japan East (Tokyo)",
+      "coordinates": {
+        "latitude": 35.6762,
+        "longitude": 139.6503
+      },
+      "timezone": "Asia/Tokyo",
+      "electricityPrice": 0.24,
+      "currency": "JPY",
+      "country": "JP",
+      "continent": "Asia"
+    },
+    {
+      "id": "uksouth",
+      "name": "UK South",
+      "displayName": "UK South (London)",
+      "coordinates": {
+        "latitude": 51.5074,
+        "longitude": -0.1278
+      },
+      "timezone": "Europe/London",
+      "electricityPrice": 0.26,
+      "currency": "GBP",
+      "country": "UK",
+      "continent": "Europe"
+    },
+    {
+      "id": "canadacentral",
+      "name": "Canada Central",
+      "displayName": "Canada Central (Toronto)",
+      "coordinates": {
+        "latitude": 43.6532,
+        "longitude": -79.3832
+      },
+      "timezone": "America/Toronto",
+      "electricityPrice": 0.11,
+      "currency": "CAD",
+      "country": "CA",
+      "continent": "North America"
+    },
+    {
+      "id": "brazilsouth",
+      "name": "Brazil South",
+      "displayName": "Brazil South (São Paulo)",
+      "coordinates": {
+        "latitude": -23.5505,
+        "longitude": -46.6333
+      },
+      "timezone": "America/Sao_Paulo",
+      "electricityPrice": 0.16,
+      "currency": "BRL",
+      "country": "BR",
+      "continent": "South America"
+    },
+    {
+      "id": "southindia",
+      "name": "South India",
+      "displayName": "South India (Chennai)",
+      "coordinates": {
+        "latitude": 13.0827,
+        "longitude": 80.2707
+      },
+      "timezone": "Asia/Kolkata",
+      "electricityPrice": 0.08,
+      "currency": "INR",
+      "country": "IN",
+      "continent": "Asia"
+    }
+  ]
+}

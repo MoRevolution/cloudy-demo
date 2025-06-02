@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloudy with a Chance of Cost Overruns</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Header -->
+        <header class="header">
+            <h1>☁️ Cloudy with a Chance of Cost Overruns</h1>
+            <p class="tagline" style="color: #e0e0e0;">Where the forecast isn't just rain… it's your budget.</p>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Map Container -->
+            <div class="map-section">
+                <div id="map" class="map-container"></div>
+            </div>
+
+            <!-- Info Panel -->
+            <div class="info-panel" id="info-panel">
+                <div class="info-content">
+                    <h2>✨ Welcome!</h2>
+                    <p>Each Azure region marker shows its current health status with color coding. Click on any marker to explore detailed weather conditions and cost analysis.</p>
+                    <p style="font-size: 0.9rem; color: #64748b; margin-top: 0.5rem;">🔄 Markers are loading with real-time health assessments...</p>
+                    
+                    <div class="legend">
+                        <h3>🎯 Cloud Health Score</h3>
+                        <div class="legend-item">
+                            <span class="health-indicator excellent"></span>
+                            <span>Excellent (Optimal Conditions)</span>
+                        </div>
+                        <div class="legend-item">
+                            <span class="health-indicator good"></span>
+                            <span>Good (Minor Impact)</span>
+                        </div>
+                        <div class="legend-item">
+                            <span class="health-indicator fair"></span>
+                            <span>Fair (Moderate Impact)</span>
+                        </div>
+                        <div class="legend-item">
+                            <span class="health-indicator poor"></span>
+                            <span>Poor (High Impact)</span>
+                        </div>
+                    </div>
+                    
+                    <div style="margin-top: 2rem; padding: 1rem; background: rgba(14, 165, 233, 0.1); border-radius: 8px; border-left: 3px solid #0ea5e9;">
+                        <p style="margin: 0; font-size: 0.9rem; color: #1e293b;">
+                            💡 <strong>Tip:</strong> Each region shows how weather conditions like temperature, humidity, and wind affect data center cooling costs and efficiency.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Loading Overlay -->
+        <div class="loading-overlay" id="loading-overlay">
+            <div class="loading-spinner"></div>
+            <p>Fetching weather data...</p>
+        </div>
+
+        <!-- Error Message -->
+        <div class="error-message" id="error-message">
+            <p>Unable to fetch weather data. Please try again later.</p>
+            <button onclick="hideError()">Close</button>
+        </div>
+    </div>
+
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    
+    <!-- App JavaScript -->
+    <script src="js/azure-regions-service.js"></script>
+    <script src="js/weather-service.js"></script>
+    <script src="js/cost-calculator.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

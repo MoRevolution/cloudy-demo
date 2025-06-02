@@ -1,0 +1,25 @@
+{
+  "name": "cloudy-cost-overruns",
+  "version": "1.0.0",
+  "description": "Azure data center cost analysis application with weather impact visualization",
+  "main": "js/app.js",
+  "scripts": {
+    "start": "npx serve -s .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "azure",
+    "cost-analysis",
+    "weather",
+    "map",
+    "visualization"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.2.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1"
+  }
+}
